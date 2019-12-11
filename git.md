@@ -1,0 +1,15 @@
+git init							创建版本库
+git add <file>						把文件添加暂存区
+git commit -m "comment"				把文件提交到当前分支
+git status							查看当前状态
+git diff <file>						查看具体修改内容
+git log								查看修改日志
+git log --pretty=oneline			查看版本号
+git reset --hard HEAD^				回退到上一版本 (回退到上n个版本 HEAD~n)
+git reset --hard 版本号(1094a)		指定回到未来的某一版本(版本号没必要写全)
+git reflog							查看历史命令
+git diff HEAD -- <file>				工作区和版本库的区别
+git checkout -- <file>				撤销文件在工作区的修改
+git reset HEAD <file>				撤销文件在暂存区的修改
+
+
