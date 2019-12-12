@@ -11,5 +11,5 @@ git reflog							查看历史命令
 git diff HEAD -- <file>				工作区和版本库的区别
 git checkout -- <file>				撤销文件在工作区的修改
 git reset HEAD <file>				撤销文件在暂存区的修改
-git modify
+
 
