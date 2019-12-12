@@ -11,5 +11,7 @@ git reflog							查看历史命令
 git diff HEAD -- <file>				工作区和版本库的区别
 git checkout -- <file>				撤销文件在工作区的修改
 git reset HEAD <file>				撤销文件在暂存区的修改
-
-
+git restore --staged <file>			删除add到暂存区的文件
+git remote add origin https://github.com/lick07/lickTest.git  关联远程库
+git push -u origin master			关联后第一次推送master分支的所有内容
+git push origin master				推送最新修改
